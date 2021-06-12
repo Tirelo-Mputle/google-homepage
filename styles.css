@@ -1,0 +1,32 @@
+ /* the main image and search bar*/
+
+.main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    position: relative;
+    
+
+
+}
+
+.google-img{
+    margin: 30px auto;
+}
+
+.text-input{
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px rgb(165, 164, 162) solid ;
+}
+
+.search-bar i{
+    position: absolute;
+}
+
+.icon{
+    margin: 15px 20px;
+    color: rgb(165, 164, 162);
+}
