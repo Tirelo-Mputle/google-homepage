@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     font-size: 14px;
+    margin: 0;
 }
  
  /* the main image and search bar*/
@@ -8,7 +9,7 @@ body {
 .main-wrapper {
     position: relative;
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
     text-align: center;
 
     
@@ -23,7 +24,7 @@ body {
 }
 
 .text-input{
-    width: 500px;
+    width: 70%;
     height: 40px;
     border-radius: 50px;
     border: 1px rgb(165, 164, 162) solid ;
@@ -49,16 +50,20 @@ body {
     height: 35px;
 }
 
+span {text-align: center;}
+
 .the-first-p {
     margin-top: 30px;
     font-size: 12px;
+    line-height: 1.5rem;
+    text-align: center;
 }
 
 .languages {
     color: rgb(81, 81, 250);
     
 }
-
+ /* navigation bar*/
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -83,3 +88,29 @@ nav li {
     position: absolute;
     top: 15px;
 }
+
+ /* footer*/
+
+ .the-footer{
+     background-color: rgb(239, 240, 240);
+     width: 100%;
+     color: rgb(107, 107, 107);
+ }
+
+ .country {
+     padding: 5px 15px;
+     border-bottom: 1px solid rgb(107, 107, 107);
+      
+ }
+ 
+ .three-item-nav{
+
+    display: flex;
+     
+ }
+
+ .three-item-nav li{
+
+    display: inline;
+     
+ }
